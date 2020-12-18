@@ -18,7 +18,7 @@ const IndexPage: React.FC<NextPage> = () => {
       </Head>
 
       <main>
-        <h1>Welcome to Pool frontend</h1>
+        <h1>Welcome to Next JS Starter</h1>
       </main>
     </Wrapper>
   )
