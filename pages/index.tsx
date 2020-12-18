@@ -1,10 +1,15 @@
 import React from 'react'
 import Head from 'next/head'
 import { NextPage } from 'next'
+import styled from 'styled-components'
+
+const Wrapper = styled.div`
+  background: lightgray;
+`
 
 const IndexPage: React.FC<NextPage> = () => {
   return (
-    <div>
+    <Wrapper>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,7 +18,7 @@ const IndexPage: React.FC<NextPage> = () => {
       <main>
         <h1>Welcome to Pool frontend</h1>
       </main>
-    </div>
+    </Wrapper>
   )
 }
 
