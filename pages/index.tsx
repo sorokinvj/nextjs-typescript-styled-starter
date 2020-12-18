@@ -6,7 +6,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   h1 {
     color: darkblue;
-  };
+  }
 `
 
 const IndexPage: React.FC<NextPage> = () => {
